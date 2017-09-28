@@ -1,0 +1,13 @@
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HCImagePickerMoudle_Example' do
+  pod 'HCImagePickerMoudle', :path => '../'
+
+  target 'HCImagePickerMoudle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
